@@ -1,0 +1,5 @@
+Boba House HRMS v13
+- Added role-aware Boba House System Assistant on authenticated HRMS pages.
+- Answers natural-language questions about reports, recruitment, employees, attendance, payroll, leave, branches, departments, POS integration and role permissions.
+- Uses live database counts/totals where permitted.
+- No external AI/API key required; designed to work on localhost for presentations.

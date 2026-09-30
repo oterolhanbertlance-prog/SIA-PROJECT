@@ -1,0 +1,7 @@
+Boba House POS v17
+- Customer cart now persists by customer account in customer_cart_items.
+- Logout preserves the cart; login restores it.
+- Saved carts are revalidated against current product name, price, stock and ingredient availability.
+- Remove, quantity update and Clear Cart immediately update the saved database cart.
+- Successful order submission clears the saved cart; failed checkout keeps it.
+- Staff accounts do not inherit or persist customer carts.

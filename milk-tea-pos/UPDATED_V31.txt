@@ -1,0 +1,10 @@
+POS v31 - Stock/availability consistency fix
+
+- Product stock and ingredient stock are now treated separately and consistently.
+- A product with stock > 0 is no longer marked unavailable just because a stale
+  ingredient is_available flag remained off.
+- Required ingredients only block a product when their actual stock_quantity is 0.
+- 'Ingredient Missing' was changed to the more accurate 'Ingredient Out of Stock'.
+- Restocking/editing an ingredient automatically restores its availability flag.
+- Customer menu, add-to-cart, saved cart, topping checks and checkout use the same stock rule.
+- Existing v30 cashier order fix and product customization behavior are preserved.

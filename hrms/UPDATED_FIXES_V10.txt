@@ -1,0 +1,22 @@
+HRMS v10 interaction reliability fixes
+
+- Applicant status update no longer nests SweetAlert inside a Bootstrap modal.
+  It now uses a direct SweetAlert status selector and confirmation, eliminating
+  the modal backdrop that could leave the page unclickable.
+- Added global orphan modal-backdrop/body-lock cleanup after modal close,
+  browser back/forward restore, and page load.
+- Added mobile sidebar-overlay pointer-event safeguards so an invisible overlay
+  cannot intercept clicks.
+- SweetAlert is forced above Bootstrap modal layers.
+- Shared confirmation helpers now fall back to native browser confirm dialogs
+  if the SweetAlert CDN is unavailable.
+- confirmDelete now always prevents the href="#" default navigation.
+- Added explicit type="button" to non-submit controls across shared header,
+  modal triggers, print buttons, AJAX action buttons, tabs, and JS-only buttons.
+- Applicant Update Status includes loading feedback before submitting.
+
+Validation performed before packaging:
+- PHP syntax lint across all PHP files
+- JavaScript syntax check for assets/js/app.js and Applicants inline JS
+- Literal internal PHP-link target audit
+- Static Bootstrap modal/tab target-to-ID audit

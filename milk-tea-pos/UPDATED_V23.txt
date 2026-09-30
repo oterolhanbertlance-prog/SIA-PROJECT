@@ -1,0 +1,1 @@
+v23: Restored direct category-ID filtering and repaired legacy Milk Tea/Smoothie Size and Topping configuration. Sugar remains product-specific and is not forcibly enabled.

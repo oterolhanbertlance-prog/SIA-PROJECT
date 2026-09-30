@@ -1,0 +1,16 @@
+============================================================
+TIME    : 2026-09-21 16:56:35
+TO      : lance11@gmail.com
+SUBJECT : Welcome to Boba House — POS access is ready
+BODY    :
+Welcome lhanbert otero!
+
+Your HRMS and POS accounts are ready.
+Employee ID: EMP-2026-0004
+Username: Inventory
+Temporary password: 123456
+POS role: inventory_staff
+
+Please change your password after your first login.
+============================================================
+

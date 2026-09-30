@@ -1,0 +1,1 @@
+v29: fixed global search, search clearing, legacy Milk Tea/Fruit Tea/Smoothies category recognition, and preserved safe product modal clicks/customization.

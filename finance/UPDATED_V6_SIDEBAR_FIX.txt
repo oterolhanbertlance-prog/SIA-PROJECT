@@ -1,0 +1,7 @@
+Finance v6
+- Fixed missing icons on Finance sidebar buttons.
+- Preserves sidebar scroll position when clicking navigation pages.
+- Prevents the sidebar from jumping back to the top after page navigation.
+- Improved icon alignment.
+- Added cache busting for changed CSS/JS/icon assets.
+- Existing chatbot, Finance features, HRMS/POS integration and mappings preserved.

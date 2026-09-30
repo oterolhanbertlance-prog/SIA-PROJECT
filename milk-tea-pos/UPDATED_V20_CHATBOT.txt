@@ -1,0 +1,5 @@
+Boba House POS v20
+- Added role-aware Boba House System Assistant on authenticated POS pages.
+- Answers natural-language questions about reports, modules, branches, sales, inventory, deliveries, cashier flow, customer ordering, attendance and HRMS integration.
+- Uses live database counts/totals where permitted.
+- No external AI/API key required; designed to work on localhost for presentations.

@@ -1,0 +1,12 @@
+Integrated HRMS update
+- Public apply.php now shows every open HR job, not only POS-tagged jobs.
+- Application submission accepts any valid open HR job.
+- Branch badge/card alignment improved on careers listing.
+- Added UI motion polish for cards, modals, tables, forms and buttons.
+- Existing POS->HRMS branch integration retained.
+
+V8 integration
+- Job postings can target multiple branches; public Careers shows one card per selected branch.
+- Same applicant may apply for the same role at different branches.
+- HRMS time clock mirrors to POS; POS clock writes directly to the same HRMS attendance record.
+- Late minutes and outside-geofence deductions are included in payroll attendance_deduction.

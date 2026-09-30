@@ -1,0 +1,9 @@
+Finance v4
+- Added the Boba House floating chatbot used by the POS.
+- Chatbot is Finance-specific and database-aware.
+- Supports live Finance questions about sales, payroll, branches, employees,
+  journals, Chart of Accounts, reports, attendance, accounts and HRMS/POS integration.
+- Uses role-authenticated Finance sessions; unauthenticated access is rejected.
+- No external AI API or API key is required.
+- Chatbot follows the Finance/HRMS/POS shared blue theme and dark mode.
+- Existing Finance v3 CSS/theme, integrations, account mappings and branch mappings are preserved.

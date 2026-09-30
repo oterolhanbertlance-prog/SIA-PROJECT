@@ -1,0 +1,42 @@
+# ─── Boba House POS — Apache configuration ──────────────────────
+# Prevents the "SameSite cookie" browser warning on localhost and
+# ensures session cookies are set securely on any environment.
+
+# Rewrite engine (enable clean URLs if mod_rewrite is available)
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    Options -Indexes
+</IfModule>
+
+# ── PHP Session Cookie Settings ──────────────────────────────────
+# These fix the browser warning:
+#   "Cookie 'PHPSESSID' has SameSite policy of 'None' without the
+#    'Secure' attribute" on localhost (Chrome/Firefox/Edge 80+).
+<IfModule mod_php8.c>
+    php_value session.cookie_httponly     1
+    php_value session.cookie_samesite     "Lax"
+    php_value session.use_strict_mode     1
+    php_value session.use_only_cookies    1
+    php_value session.cookie_path         /
+    php_value session.gc_maxlifetime      7200
+</IfModule>
+<IfModule mod_php7.c>
+    php_value session.cookie_httponly     1
+    php_value session.use_strict_mode     1
+    php_value session.use_only_cookies    1
+    php_value session.cookie_path         /
+    php_value session.gc_maxlifetime      7200
+</IfModule>
+
+# ── Security headers ─────────────────────────────────────────────
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# ── Protect sensitive directories ────────────────────────────────
+<FilesMatch "\.(sql|log|txt|env|ini|sh)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>

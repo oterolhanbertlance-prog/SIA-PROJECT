@@ -1,0 +1,7 @@
+POS v30 - Cashier Open & Accept Order fix
+
+Fixed staff/process_order.php:
+- Loads includes/product_customization.php before calling ensureProductCustomizationSchema().
+- Also guarantees customizationSummary() is available when displaying Size, Sugar Level,
+  Ice Level and Toppings in the cashier order screen.
+- Existing v29 search, categories, product customization and inventory behavior are preserved.

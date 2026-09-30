@@ -1,0 +1,6 @@
+Finance v5
+- Fixed chatbot authentication/session handling.
+- Chatbot now explicitly sends the logged-in Finance session cookie.
+- Added Boba House milk-tea logo to chatbot header and launcher.
+- Reviewed and restored missing navigation entries for available Finance pages.
+- Preserved Finance integrations, branch/account mappings, shared HRMS/POS theme and database-aware chatbot.

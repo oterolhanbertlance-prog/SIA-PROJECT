@@ -1,0 +1,15 @@
+Finance v3 theme alignment
+- Finance palette now matches the current HRMS/POS palette.
+- Primary: #4361ee
+- Primary dark: #2f4ac7
+- Accent: #4cc9f0
+- Sidebar: #1a1f3a
+- Body: #f0f4ff
+- Card: #ffffff
+- Border: #dfe6f4
+- Muted text: #6c7a91
+- Success/warning/danger also match HRMS/POS.
+- Active sidebar navigation is now the same flat blue instead of a Finance-only gradient.
+- Finance hero banners and primary buttons use the same blue.
+- Dark mode uses HRMS dark colors (#0d1117 / #161b22 / #30363d).
+- HRMS/POS account integration, branch mappings, database integration and Finance functions are unchanged.

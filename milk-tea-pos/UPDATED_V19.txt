@@ -1,0 +1,5 @@
+POS v19
+- Branch map pins automatically reverse-geocode to Street Address and City/Municipality.
+- Works on map click, marker drag, Use My Location, and valid manual coordinate changes.
+- Keeps Philippines-land-only validation from v18.
+- Address lookup failure does not block branch saving; users may edit/type the address manually.

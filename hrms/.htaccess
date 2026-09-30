@@ -1,0 +1,22 @@
+# HRMS — Apache configuration
+# Place this file in the hrms/ folder (e.g. C:\xampp\htdocs\hrms\.htaccess)
+
+Options -Indexes
+DirectoryIndex index.php
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    # Redirect directory root to index.php
+    RewriteRule ^$ index.php [L]
+</IfModule>
+
+# Protect sensitive files
+<FilesMatch "\.(sql|log|sh|env)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+<FilesMatch "^(config|database)\.php$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>

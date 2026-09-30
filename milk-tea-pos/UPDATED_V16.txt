@@ -1,0 +1,8 @@
+Boba House POS v16
+- Cashier no longer uses customer cart/checkout.
+- Customer orders enter a branch-specific Cashier Order Queue.
+- Cashier receives in-app new-order alerts on all staff pages.
+- Cashier confirms customer payment and completes/cancels orders.
+- Customer pickup and delivery orders require a branch.
+- Sales Receipts show orders processed by the cashier.
+- Auth redirects normalized to appBaseUrl to prevent Apache 404 paths.

@@ -1,0 +1,5 @@
+-- v11 branch reconciliation helper
+-- No destructive statements are required. The PHP application now reconciles
+-- hrms.branches <-> milk_tea_pos.branches automatically by pos_branch_id / branch_code.
+-- Open POS Admin > Branches once after upgrading to immediately populate any
+-- HRMS-only branches into the POS database.

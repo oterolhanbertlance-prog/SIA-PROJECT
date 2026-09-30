@@ -1,0 +1,6 @@
+POS v21 customization fix
+- Restored product Size, Sugar Level, Ice Level and Toppings.
+- Options are controlled per product by Inventory Staff, not forced by category.
+- Existing drink products receive sensible defaults only on first schema upgrade; staff can turn any option off.
+- Size and toppings can add price using Name|price lines.
+- Cart, persistent cart, checkout, transaction details, receipts and cashier order processing preserve all selected options.

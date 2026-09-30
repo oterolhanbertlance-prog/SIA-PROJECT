@@ -1,0 +1,20 @@
+/* Local icon subset used by Finance. No remote font or CDN is required. */
+.bi{display:inline-block;font-style:normal;line-height:1}
+.bi::before{display:inline-block}
+.bi-grid::before{content:"▦"}.bi-arrow-repeat::before{content:"↻"}.bi-receipt::before{content:"▤"}
+.bi-people::before{content:"♙"}.bi-journal::before{content:"▥"}.bi-bar-chart::before{content:"▮"}
+.bi-list-columns::before{content:"☷"}.bi-gear::before{content:"⚙"}.bi-box-arrow-right::before{content:"↗"}
+.bi-shield-check::before{content:"✓"}.bi-check::before{content:"✓"}.bi-arrow-right::before{content:"→"}
+.bi-graph-up-arrow::before{content:"↗"}.bi-calendar3::before{content:"▣"}.bi-stars::before{content:"✦"}
+.bi-wallet2::before{content:"▰"}.bi-cash-stack::before{content:"▤"}.bi-bank::before{content:"⌂"}
+.bi-arrow-down-left::before{content:"↙"}.bi-arrow-up-right::before{content:"↗"}.bi-database::before{content:"◉"}
+.bi-plus-lg::before{content:"+"}.bi-check2::before{content:"✓"}.bi-dash::before{content:"–"}
+.bi-printer::before{content:"▧"}.bi-info-circle::before{content:"i"}.bi-download::before{content:"↓"}
+.bi-shield-lock::before{content:"◆"}.bi-cookie::before{content:"◌"}.bi-file-earmark-lock::before{content:"▥"}
+/* v6 missing Finance navigation/UI icons */
+.bi-diagram-3::before{content:"⌘"}.bi-calendar2-check::before{content:"▣"}
+.bi-envelope-paper::before{content:"✉"}.bi-geo-alt::before{content:"⌖"}
+.bi-person-gear::before{content:"♟"}.bi-clock-history::before{content:"◷"}
+.bi-person-circle::before{content:"●"}.bi-moon-stars::before{content:"☾"}
+.bi-sun::before{content:"☀"}.bi-robot::before{content:"◆"}.bi-x-lg::before{content:"×"}
+.bi-send-fill::before{content:"➤"}.bi-person-vcard::before{content:"▣"}

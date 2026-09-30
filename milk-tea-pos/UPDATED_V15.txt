@@ -1,0 +1,1 @@
+v15: fixed cashier Sales Receipts, cashier pickup branch attribution, and dark mode fallback for all sidebar-based POS roles.

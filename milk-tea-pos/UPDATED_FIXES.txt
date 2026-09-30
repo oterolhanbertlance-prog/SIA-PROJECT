@@ -1,0 +1,24 @@
+Integrated Milk Tea POS update
+- Fixed Add Branch JavaScript initialization/JSON issue.
+- Branch page self-adds manager_name field on older existing databases.
+- New branch code generation checks for duplicates before insert.
+- Branch table/stat alignment improved.
+- Added UI motion polish for cards, modals, tables, forms and buttons.
+- POS->HRMS branch synchronization retained.
+
+
+ROLE UI / ACCESS FIX v7:
+- Super Admin: management, analytics, delivery/logistics, branches, users, fund, HR integration. No inventory or counter-order UI.
+- Inventory Staff: products, categories, ingredients/stock only (plus timekeeping). No cart/checkout/admin analytics.
+- Cashier: counter ordering, checkout/current sale, sales receipts only (plus timekeeping).
+- Customer: menu, cart, own orders only.
+- Direct URL authorization matches sidebar permissions; non-ordering logins clear stale cart session data.
+
+V8 integration
+- Delivery zones replaced by branch-driven delivery settings and driver deployment.
+- Customer/admin delivery orders choose a fulfillment branch; only drivers deployed to that branch can claim them.
+- POS branch page shows HR lead, POS admin, and active POS staff count.
+- POS User Management can assign staff/admin accounts to branches.
+- POS time clock shares one attendance record with HRMS and records GPS/late status.
+
+V12: Added persistent light/dark mode toggle for all logged POS workspaces.
